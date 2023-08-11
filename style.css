@@ -1,0 +1,167 @@
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.banner-image {
+  max-width: 100%;
+  width: 1800px;
+  height: 800px;
+  border-radius: 20px;
+  box-shadow: inset;
+  shape-outside: -moz-element(100);
+}
+
+/* Navigation */
+nav {
+  background-color: #444;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+/* Style for the navigation links */
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid #ff6600; /* Blue color, you can adjust this */
+  border-radius: 4px;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #ff6600;
+  border-color: #ff6600;
+  color: #fff;
+}
+
+/* Main content */
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 1em;
+}
+
+/* Center-align the content within the services section */
+#services {
+  text-align: center;
+}
+
+#services h2 {
+  margin-bottom: 20px;
+}
+
+#services ul {
+  list-style: none;
+  padding: 0;
+}
+
+#services li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Style for the "Titta här" button */
+#services .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#services .button:hover {
+  background-color: #ff4500;
+}
+
+/* Center-align the content within sections */
+#about,
+#services {
+  text-align: center;
+  padding: 40px 0; /* Add padding for spacing */
+}
+
+/* Style for images within sections */
+#about img,
+#services img {
+  max-width: 800px;
+  height: 500px;
+  margin: 0 auto 20px; /* Center-align and add spacing below the image */
+  display: block; /* Remove any residual inline spacing */
+  border: 3px solid #ff6600;
+  border-radius: 20px;
+}
+
+/* Style for section headings */
+#about h2,
+#services h2 {
+  margin-bottom: 20px;
+}
+
+/* Style for section lists */
+#services ul {
+  list-style: none;
+  padding: 0;
+}
+
+#services li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Style for section buttons */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #ff4500;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
